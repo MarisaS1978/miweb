@@ -1,0 +1,151 @@
+/*Link a google fonts para cambiar la letra
+*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    font-family: 'Space Grotesk';
+}
+body{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+header{
+    background-image: url('Escritorio.jpg');
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    margin: 30px;
+    width: 100%;
+    
+}
+
+header img{
+    border-radius: 50%;
+    max-width: 300px;
+    margin-top: 80px;
+    margin-left: 15%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+h1{
+    margin-left: 200px;
+    padding-left: 300px;
+    font-size: 50px;
+    text-shadow: 3px 3px rgb(89, 156, 89);
+    
+}
+
+h2{
+    margin-left: 450px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px grey ;
+  
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color:rgb(206, 240, 210);
+    column-gap: 20px;
+}
+
+.izquierda{
+    position: relative;
+    padding: 10px;
+    background-color:rgb(164, 190, 167);
+    
+
+}
+
+.derecha{
+    position: relative;
+    
+    padding: 20px;
+    height: 95%;
+    background-color:rgb(206, 240, 210);
+
+}
+
+.contacto{
+    display:inline-block;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    list-style-type: none;
+    margin-bottom: 50px;
+   
+    
+}
+
+
+#perfil{
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#perfil1{
+    margin-bottom: 75px;
+}
+
+#habilidades{
+    text-decoration: underline;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    
+   
+}
+
+.habilidades1{
+    list-style-type: square;
+
+}
+#idiomas{
+    text-decoration: underline;
+    margin-top: 75px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+    
+}
+.idiomas{
+    text-align: right;
+
+}
+
+#educacion{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    
+}
+
+
+
+#laboral{
+    text-decoration: underline;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+a{
+    color: rgb(2, 165, 21);
+    font-weight: 200px;
+}
+
+footer{
+    float:left;
+    font-weight: 200px;
+    margin-left: 30%;
+}
+
